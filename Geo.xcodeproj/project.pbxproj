@@ -20,6 +20,7 @@
 		7F14E09E192BBB1F00554400 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F14E09C192BBB1F00554400 /* InfoPlist.strings */; };
 		7F14E0A0192BBB1F00554400 /* GeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14E09F192BBB1F00554400 /* GeoTests.m */; };
 		7F14E0AA192BBB5D00554400 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F14E0A9192BBB5D00554400 /* Storyboard.storyboard */; };
+		7FABE95B192BF3E200848860 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FABE95A192BF3E200848860 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		7F14E09D192BBB1F00554400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F14E09F192BBB1F00554400 /* GeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoTests.m; sourceTree = "<group>"; };
 		7F14E0A9192BBB5D00554400 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7FABE95A192BF3E200848860 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F14E07D192BBB1F00554400 /* CoreGraphics.framework in Frameworks */,
+				7FABE95B192BF3E200848860 /* FacebookSDK.framework in Frameworks */,
 				7F14E07F192BBB1F00554400 /* UIKit.framework in Frameworks */,
 				7F14E07B192BBB1F00554400 /* Foundation.framework in Frameworks */,
 			);
@@ -98,6 +101,7 @@
 		7F14E079192BBB1F00554400 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FABE95A192BF3E200848860 /* FacebookSDK.framework */,
 				7F14E07A192BBB1F00554400 /* Foundation.framework */,
 				7F14E07C192BBB1F00554400 /* CoreGraphics.framework */,
 				7F14E07E192BBB1F00554400 /* UIKit.framework */,
@@ -362,6 +366,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/albertguo/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Geo/Geo-Prefix.pch";
 				INFOPLIST_FILE = "Geo/Geo-Info.plist";
@@ -375,6 +383,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/albertguo/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Geo/Geo-Prefix.pch";
 				INFOPLIST_FILE = "Geo/Geo-Info.plist";
@@ -442,6 +454,7 @@
 				7F14E0A5192BBB1F00554400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F14E0A6192BBB1F00554400 /* Build configuration list for PBXNativeTarget "GeoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +463,7 @@
 				7F14E0A8192BBB1F00554400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
