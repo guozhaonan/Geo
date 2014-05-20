@@ -19,6 +19,7 @@
 		7F14E096192BBB1F00554400 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F14E07E192BBB1F00554400 /* UIKit.framework */; };
 		7F14E09E192BBB1F00554400 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F14E09C192BBB1F00554400 /* InfoPlist.strings */; };
 		7F14E0A0192BBB1F00554400 /* GeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14E09F192BBB1F00554400 /* GeoTests.m */; };
+		7F14E0AA192BBB5D00554400 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F14E0A9192BBB5D00554400 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7F14E09B192BBB1F00554400 /* GeoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoTests-Info.plist"; sourceTree = "<group>"; };
 		7F14E09D192BBB1F00554400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F14E09F192BBB1F00554400 /* GeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoTests.m; sourceTree = "<group>"; };
+		7F14E0A9192BBB5D00554400 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				7F14E089192BBB1F00554400 /* AGAppDelegate.h */,
+				7F14E0A9192BBB5D00554400 /* Storyboard.storyboard */,
 				7F14E08A192BBB1F00554400 /* AGAppDelegate.m */,
 				7F14E08C192BBB1F00554400 /* Images.xcassets */,
 				7F14E081192BBB1F00554400 /* Supporting Files */,
@@ -222,6 +225,7 @@
 			files = (
 				7F14E085192BBB1F00554400 /* InfoPlist.strings in Resources */,
 				7F14E08D192BBB1F00554400 /* Images.xcassets in Resources */,
+				7F14E0AA192BBB5D00554400 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
